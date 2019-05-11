@@ -1,0 +1,135 @@
+.margin{width:1000px;margin:0 auto;}
+
+
+#banner .box{
+    margin:0 auto;
+    height: 400px;
+    width:1600px;
+    position: relative;
+    overflow: hidden;
+} 
+#banner .imgbox img{
+    height:400px;   
+    width:1600px; 
+}
+#banner .imgbox a{
+    position: absolute;
+    left:1600px;
+    top:0;
+} 
+#banner .imgbox a:nth-child(1){
+    left:0px;
+}
+#banner .btn *{
+    border:none;
+    cursor: pointer;
+    width:50px;
+    height: 50px;
+    position: absolute;
+    outline: none;
+    background: rgba(255,255,255,0.6);
+    top:175px;
+}
+#left{
+    left:0;
+}
+#right{
+    right: 0;
+} 
+
+#main .top{
+    margin-top:8px;
+    border-bottom: 1px solid #00ADEF;
+}
+#main .top h3{
+    float: left;
+    width:80px;
+    height: 32px;
+    font:16px/32px "";
+    text-align: center;
+    padding:0 20px;
+    color:#fff;
+    background: #00ADEF;
+}
+#main .top a{
+    float: right;
+    font:14px/32px "";
+    color: #666;
+}
+
+
+
+
+#cont ul{
+    width:1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;   
+}
+#cont #box{
+    width: 248px;
+    float: left;
+    border:1px solid #ccc;
+    margin-bottom:2px;
+}
+#cont #box a{
+    display: block;
+}
+#cont #box img{
+    width:248px;
+    height:334px;
+}
+#cont #box .showBox{
+    overflow: hidden;
+    height: 40px;
+    padding:10px;
+    background: url(../image/hot.png) no-repeat right;
+}
+#cont #box h3{
+    text-align: center;
+    width:130px;
+    height:50px;
+    float: left;
+    font:12px/2 "";
+    /* font-weight: 100; */
+    padding-right:4px;
+    border-right: 2px dashed #ccc;
+}
+#cont #box span{
+    font: 16px/40px "";
+    margin-left:2px;
+    padding-left:16px;
+    color: red;
+    background:url(../image/16.png) no-repeat left;
+}
+
+
+
+#code{
+    width:100px;
+    position: fixed;
+    left: 0;
+    top:380px;
+    display: block;
+}
+#code img{
+    width:100%;
+    position: relative;
+
+}
+#code span{
+    display:block;
+    width:16px;
+    height: 16px;
+    position: absolute;
+    right:-16px;
+    top:0px;
+    background:url(../image/15.png) no-repeat;
+}
+
+
+
+
+
+
+

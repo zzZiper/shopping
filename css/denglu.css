@@ -1,0 +1,151 @@
+.margin{width:1000px;margin:0 auto;}
+
+
+#main .img1{
+    margin:20px 0;
+}
+
+#main .box{
+    padding:30px;
+    margin:0 auto;
+    border:1px solid #ccc;
+}
+#main .box .left img{
+    float: left;
+}
+
+#main .box .right{
+    float: right;
+    width:400px;
+    font:18px/32px "";
+    border:1px solid  rgb(219, 218, 218);
+}
+#main .box .right .top .title{
+    width:200px;
+    padding:10px 0;
+    text-align: center;
+    float: left;
+}
+
+
+#main .box .right .center{
+    border-bottom: 1px solid #ccc;
+    height:250px;
+}
+#main .box .right .center .reg{
+    font-size:16px;
+    margin:20px 56px 0;
+    text-align: right;
+    height:280px;
+    display: none;
+}
+
+#main .box .right .center .reg input{
+    padding:0 4px;
+    margin-top:6px;
+    width:210px;
+    height:26px;
+    
+}
+#main .box .right .center .reg #btn{
+    float: left;
+    margin:30px 90px 0;
+    width:120px;
+    height: 36px;
+    border: 0;
+    background:#00ADEF;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+
+#main .box .right .center .login{
+    overflow: hidden;
+    font:16px/34px "";
+    display:block;
+}
+#main .box .right .center .login #user_2{
+    float: left;
+    border:none;
+    width:200px;
+    height:34px;
+    padding:0 10px;
+    margin:40px 0 0 90px;
+    border:1px solid #ccc;
+}
+#main .box .right .center .login #pass_2{
+    float: left;
+    border:none;
+    width:200px;
+    height:34px;
+    padding:0 10px;
+    margin:10px 0 0 90px;
+    border:1px solid #ccc;
+}
+#main .box .right .center .login span{
+    float: left;
+    margin:10px 90px 0 90px;
+}
+#main .box .right .center .login span #che{
+    margin-right: 6px;
+}
+#main .box .right .center .login #btn-2{
+    float: left;
+    width: 120px;
+    height: 36px;
+    border: 0;
+    margin:10px 90px;
+    border-radius: 4px;
+    background:#00ADEF;
+    color: #fff;
+    font-weight: 700;
+}
+#main .box .right .center .login .min{
+    float: right;
+    margin-right: 6px;
+    font-size:14px;
+}
+#main .box .right .center .login .min a{
+    color: #444;
+}
+#main .box .right .center .login .min b{
+    margin:0 6px;
+}
+#main .box .right .bottom{
+    font-size:14px;
+    margin:4px 30px;
+}
+#main .box .right .bottom a{
+    width: 60px;
+    border:1px solid #ccc;
+    background: url(../image/20.png) no-repeat 4px;
+    padding-left: 26px;
+
+}
+#main .box .right .bottom b{
+    background:#01b610;
+    color: #fff;
+    padding:0 4px;
+}
+
+#down{
+    text-align: center;
+    margin:30px 0;
+}
+#down h3{
+    font:12px/2 "";
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

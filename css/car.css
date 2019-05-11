@@ -1,0 +1,76 @@
+.margin{width:1000px;margin:0 auto;}
+
+#main .cont{
+    margin-top: 40px;
+}
+#main .cont h3{
+    background: url(../image/4.png) no-repeat left;
+    padding-left: 26px;
+    font:16px/2 "";
+    border-bottom: 1px dashed #ccc;
+}
+#main table{
+    font:14px/2 "";
+    margin:30px;
+    border:1px solid #ccc;
+    width:900px;
+    text-align:center;
+}
+#main table thead tr th{
+    border:1px solid #ccc;
+}
+#main table tbody td{
+    border:1px solid #ccc;
+}
+#main table tbody td.te input{
+    width:20px;
+}
+#main table tbody td.te span{
+    margin:0 6px;
+}
+#main table tbody td img{
+    margin:6px;
+    width:60px;
+    height:60px;
+}
+#main table tbody td em{
+    display: block;
+    margin-left: 20px;
+    width:60px;
+    background: rgb(34, 138, 236);
+    color: #fff;
+    border-radius: 4px;
+
+}
+#main .cont .bottom{
+    float: right;
+}
+
+#main .cont .bottom ul{
+    text-align: right;
+    margin-right:66px;
+}
+#main .cont .bottom li{
+    font-size:14px;
+}
+#main .cont .bottom li span{
+    font-size:26px;
+    color: red;
+    margin:0 10px;
+}
+#main .cont .bottom li:first-child{
+    margin:20px 0;
+}
+
+#main .cont .bottom input{
+    margin:20px 10px 80px;
+    padding:6px 30px;
+    font:16px/2 "";
+    border: 0;
+    border-radius: 4px;
+    background: rgb(238, 103, 14);
+    color: #fff;
+}
+
+
+
